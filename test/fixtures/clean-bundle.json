@@ -1,0 +1,42 @@
+{
+  "index.html": {
+    "type": "asset",
+    "fileName": "index.html"
+  },
+  "assets/index-4d1f8b.css": {
+    "type": "asset",
+    "fileName": "assets/index-4d1f8b.css"
+  },
+  "assets/index-a71c02.js": {
+    "type": "chunk",
+    "fileName": "assets/index-a71c02.js",
+    "name": "index",
+    "isEntry": true,
+    "imports": ["assets/vendor-3b7d04.js", "assets/ui-77e9aa.js", "assets/index-4d1f8b.css"],
+    "dynamicImports": ["assets/route-settings-2cc8f1.js"]
+  },
+  "assets/vendor-3b7d04.js": {
+    "type": "chunk",
+    "fileName": "assets/vendor-3b7d04.js",
+    "name": "vendor",
+    "isEntry": false,
+    "imports": [],
+    "dynamicImports": []
+  },
+  "assets/ui-77e9aa.js": {
+    "type": "chunk",
+    "fileName": "assets/ui-77e9aa.js",
+    "name": "ui",
+    "isEntry": false,
+    "imports": ["assets/vendor-3b7d04.js"],
+    "dynamicImports": []
+  },
+  "assets/route-settings-2cc8f1.js": {
+    "type": "chunk",
+    "fileName": "assets/route-settings-2cc8f1.js",
+    "name": "route-settings",
+    "isEntry": false,
+    "imports": ["assets/vendor-3b7d04.js", "assets/ui-77e9aa.js"],
+    "dynamicImports": []
+  }
+}

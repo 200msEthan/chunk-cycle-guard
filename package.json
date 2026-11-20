@@ -1,0 +1,20 @@
+{
+  "name": "chunk-cycle-guard",
+  "version": "0.1.0",
+  "description": "Find circular dependencies between Rollup or Vite output chunks",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/find-circular-chunks.mjs",
+  "exports": {
+    ".": "./src/find-circular-chunks.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "files": [
+    "src"
+  ]
+}
